@@ -13,10 +13,10 @@ body {
 }
 
 .carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8c8;
+  width: 168px;
+  height: 320px;
+  margin-right: 0px;
+  background: #fff !important;
   border-radius: 5px;
   counter-increment: gallery-cell;
 }
@@ -25,17 +25,30 @@ body {
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(gallery-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+  content: unset;
 }
 
 /**/
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-grid;
+  margin: 10px 15px 10px 15px !important;
+  padding: 0px 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   width: 48%;
+}
+
+.card:after {
+    content: "Click to add image";
+    position: relative;
+    z-index: 0;
+    font-size: 8px;
+    top: -406px;
+    left: 0px;
+    margin: auto 28%;
 }
 
 .card:hover {
@@ -121,4 +134,100 @@ ol.flickity-page-dots {
   width: 100%; 
   height: 60%; 
   object-fit: cover;
+}
+
+
+.addTxt{
+    position: relative;
+    height: 69px;
+    max-width: 100%;
+    /* max-height: 100%; */
+    bottom: 185px;
+    overflow: hidden;
+    resize: none;
+}
+
+
+
+.fomBtn{
+    position: relative;
+    height: 21px;
+    max-width: 85%;
+    00%: ;
+    /* max-height: 100%; */
+    bottom: 181px;
+    overflow: hidden;
+    resize: none;
+}
+
+.addTitle{
+    position: relative;
+    bottom: 189px;
+    width: 100%;
+}
+
+.txtColorBtn {
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: -1px;
+    position: relative;
+    right: -4px;
+}
+
+button.BtnHandle {
+  cursor: pointer;
+  z-index: 4;
+  opacity: 0.5;
+  width: 29px;
+  top: 10px;
+  position: relative;
+  left: 1px;
+}
+
+
+.BtnDelete{
+    background-color: transparent;
+    border: none;
+    color: #585858;
+    padding: 0px 3px;
+    text-align: center;
+    text-decoration: none;
+    
+    bottom: 198px;
+    position: relative;
+    right: -135px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.imgUpload {
+    top: -10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-opacity: 0;
+    filter: alpha(opacity: 0);
+    opacity: 0;
+    z-index: 3;
+}
+
+.imgUpload, .cardContent {
+    width: 100%;
+    height: 180px !important;
+    position: relative;
+}
+
+.cardContent  {
+    top: -193px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
 }
