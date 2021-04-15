@@ -13,10 +13,10 @@ body {
 }
 
 .carousel-cell {
-  width: 168px;
-  height: 320px;
-  margin-right: 0px;
-  background: #fff !important;
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
   border-radius: 5px;
   counter-increment: gallery-cell;
 }
@@ -25,30 +25,17 @@ body {
 .carousel-cell:before {
   display: block;
   text-align: center;
+  content: counter(gallery-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
-  content: unset;
 }
 
 /**/
 .card {
-  display: inline-grid;
-  margin: 10px 15px 10px 15px !important;
-  padding: 0px 7px;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 48%;
-}
-
-.card:after {
-    content: "Click to add image";
-    position: relative;
-    z-index: 0;
-    font-size: 8px;
-    top: -406px;
-    left: 0px;
-    margin: auto 28%;
 }
 
 .card:hover {
@@ -137,6 +124,36 @@ ol.flickity-page-dots {
 }
 
 
+
+.carousel-cell {
+    height: 320px;
+    margin-right: 0px;
+    background: #fff !important;
+    height: 320px;
+    width: 168px;
+    margin-right: 0px;
+}
+
+
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+    content: unset;
+}
+
+
+.carousel-cell img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+
+
 .addTxt{
     position: relative;
     height: 69px;
@@ -146,8 +163,6 @@ ol.flickity-page-dots {
     overflow: hidden;
     resize: none;
 }
-
-
 
 .fomBtn{
     position: relative;
@@ -160,11 +175,36 @@ ol.flickity-page-dots {
     resize: none;
 }
 
+
+
+
 .addTitle{
     position: relative;
     bottom: 189px;
     width: 100%;
 }
+
+
+.card{
+  display: inline-grid;
+  margin: 10px 15px 10px 15px !important;
+  padding: 0px 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 48%;
+}
+
+
+.card:after {
+    content: "Click to add image";
+    position: relative;
+    z-index: 0;
+    font-size: 8px;
+    top: -406px;
+    left: 0px;
+    margin: auto 28%;
+}
+
 
 .txtColorBtn {
  background-color: #4CAF50;
@@ -191,6 +231,8 @@ button.BtnHandle {
 }
 
 
+
+
 .BtnDelete{
     background-color: transparent;
     border: none;
@@ -206,6 +248,12 @@ button.BtnHandle {
     cursor: pointer;
 }
 
+.BtnHandle{
+  top: 10px;
+    z-index: 1;
+    position: relative;
+    left: 1px;
+}
 
 .imgUpload {
     top: -10px;
@@ -230,4 +278,5 @@ button.BtnHandle {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
+  
 }
