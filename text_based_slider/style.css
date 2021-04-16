@@ -1,3 +1,13 @@
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
 .carousel {
   background: #eee;
 }
@@ -23,7 +33,7 @@
 
 /**/
 .card {
-  display: inline-grid;
+  /*display: inline-grid;*/
   margin: 10px 15px 10px 15px !important;
   padding: 0px 7px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
