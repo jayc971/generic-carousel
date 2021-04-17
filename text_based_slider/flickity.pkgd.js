@@ -1528,8 +1528,8 @@ proto.getSize = function() {
 var cellAlignShorthands = {
   // cell align, then based on origin side
   center: {
-    left: 0.5,
-    right: 0.5
+    left: 0.1,
+    right: 0.1
   },
   left: {
     left: 0,
