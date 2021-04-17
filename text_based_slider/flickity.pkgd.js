@@ -1019,7 +1019,7 @@ proto.positionSlider = function() {
     this.shiftWrapCells( x );
   }
 
-  this.setTranslateX( x - 25, this.isAnimating);
+  this.setTranslateX( x - 17, this.isAnimating);
   this.dispatchScrollEvent();
 };
 
