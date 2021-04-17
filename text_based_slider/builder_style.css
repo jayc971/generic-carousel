@@ -1,0 +1,252 @@
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  background: #eee;
+}
+
+.carousel-cell {
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  background: #fff !important;
+  height: 320px;
+  width: 168px;
+  margin-right: 0px;
+}
+
+/* cell number */
+.carousel-cell:before {
+   display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+    content: unset;
+}
+
+/**/
+.card {
+  display: inline-grid;
+  margin: 10px 15px 10px 15px !important;
+  padding: 0px 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 48%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  overflow: hidden;
+  max-height: 91px;
+}
+
+/*counter*/
+.carousel-cell:before {
+  content: unset;
+}
+
+.carousel-cell .container h4 {
+  margin: 0px 0px 0px -5px;
+  line-height: 18px;
+  min-width: 150px;
+}
+
+.carousel-cell .container h4 b {
+  font-size: 0.75em !important;
+  line-height: 0em !important;
+  /* margin-right: 0px; */
+}
+
+.flickity-slider {
+  width: 125%;
+}
+
+.carousel-cell .container p {
+  margin: 4px 0px 8px -4px;
+  font-size: 12px;
+  min-width: 99px;
+}
+
+.carousel-cell {
+  background: #fff !important;
+  height: 320px;
+  width: 168px;
+  margin-right: 0px;
+}
+
+.flickity-viewport {
+  height: 340px !important;
+}
+
+.carousel-cell {
+  height: 320px;
+  margin-right: 0px;
+}
+.carousel {
+  background: unset;
+}
+
+ol.flickity-page-dots {
+  display: none;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 4px -4px;
+  cursor: pointer;
+  min-width: 98px;
+  position: fixed;
+  bottom: 18px;
+}
+
+
+
+.carousel-cell img{
+  width: 100%; 
+  height: 60%; 
+  object-fit: cover;
+}
+
+
+
+/****/
+
+
+
+
+.addTxt{
+    position: relative;
+    height: 69px;
+    max-width: 100%;
+    /* max-height: 100%; */
+    bottom: 185px;
+    overflow: hidden;
+    resize: none;
+}
+
+.fomBtn{
+    position: relative;
+    height: 21px;
+    max-width: 85%;
+    00%: ;
+    /* max-height: 100%; */
+    bottom: 181px;
+    overflow: hidden;
+    resize: none;
+}
+
+
+
+
+.addTitle{
+    position: relative;
+    bottom: 189px;
+    width: 100%;
+}
+
+
+.card:after {
+    content: "Click to add image";
+    position: relative;
+    z-index: 0;
+    font-size: 8px;
+    top: -406px;
+    left: 0px;
+    margin: auto 28%;
+}
+
+
+.txtColorBtn {
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: -1px;
+    position: relative;
+    right: -4px;
+}
+
+
+button.BtnHandle {
+  cursor: pointer;
+  z-index: 4;
+  opacity: 0.5;
+  width: 29px;
+  top: 10px;
+  position: relative;
+  left: 1px;
+}
+
+
+
+
+.BtnDelete{
+    background-color: transparent;
+    border: none;
+    color: #585858;
+    padding: 0px 3px;
+    text-align: center;
+    text-decoration: none;
+    
+    bottom: 198px;
+    position: relative;
+    right: -135px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.BtnHandle{
+  top: 10px;
+    z-index: 1;
+    position: relative;
+    left: 1px;
+}
+
+.imgUpload {
+    top: -10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-opacity: 0;
+    filter: alpha(opacity: 0);
+    opacity: 0;
+    z-index: 3;
+}
+
+.imgUpload, .cardContent {
+    width: 100%;
+    height: 180px !important;
+    position: relative;
+}
+
+.cardContent  {
+    top: -193px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+  
+}
