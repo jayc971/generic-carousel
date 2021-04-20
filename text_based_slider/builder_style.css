@@ -16,7 +16,7 @@ body {
   border-radius: 5px;
   counter-increment: gallery-cell;
   background: #fff !important;
-  height: 320px;
+  height: 330px;
   width: 168px;
   margin-right: 0px;
 }
@@ -29,6 +29,15 @@ body {
     font-size: 80px;
     color: white;
     content: unset;
+}
+
+.carousel-cell .uploadcare--widget {
+    display: inline-block;
+    vertical-align: baseline;
+    position: absolute;
+    bottom: 139px;
+    right: 7px;
+    z-index: 999;
 }
 
 /**/
@@ -195,9 +204,9 @@ button.BtnHandle {
   z-index: 4;
   opacity: 0.5;
   width: 29px;
-  top: 10px;
-  position: relative;
-  left: 1px;
+  top: 9px;
+  position: absolute;
+  left: 7px;
 }
 
 
