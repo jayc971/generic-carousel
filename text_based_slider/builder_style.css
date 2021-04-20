@@ -34,8 +34,8 @@ body {
     display: inline-block;
     vertical-align: baseline;
     position: absolute;
-    bottom: 139px;
-    right: 7px;
+    bottom: 139px !important;
+    right: 7px !important;
     z-index: 999;
 }
 
@@ -98,10 +98,6 @@ body {
   height: 340px !important;
 }
 
-.carousel-cell {
-  height: 320px;
-  margin-right: 0px;
-}
 .carousel {
   background: unset;
 }
