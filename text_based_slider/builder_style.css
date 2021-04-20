@@ -16,7 +16,6 @@ body {
   border-radius: 5px;
   counter-increment: gallery-cell;
   background: #fff !important;
-  height: 330px;
   width: 168px;
   margin-right: 0px;
 }
@@ -89,9 +88,10 @@ body {
 
 .carousel-cell {
   background: #fff !important;
-  height: 320px;
+  height: 330px;
   width: 168px;
   margin-right: 0px;
+  padding-top: 22px;
 }
 
 .flickity-viewport {
