@@ -103,19 +103,19 @@ ol.flickity-page-dots {
 
 .sf-carousel-button {
   background-color: #000;
-  border: none;
-  color: white;
-  padding: 3px 3px 3px 3px;
-  border-radius: 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 11px;
-  margin: 4px -4px;
-  cursor: pointer;
-  min-width: 98px;
-  position: fixed;
-  bottom: 18px;
+    border: none;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px -4px;
+    cursor: pointer;
+    min-width: 36%;
+    position: fixed;
+    bottom: 18px;
 }
 
 
