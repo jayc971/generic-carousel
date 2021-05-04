@@ -30,6 +30,12 @@ body {
     content: unset;
 }
 
+.carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_open, .carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_cancel, .carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_remove, .carousel-cell .uploadcare--widget__text, .carousel-cell .uploadcare--progress.uploadcare--progress_type_canvas.uploadcare--widget__progress, .carousel-cell .uploadcare--progress__canvas{
+    background-color: white !important;
+    color: black !important;
+    border: 0.9px solid rgba(0,0,0,.2) !important;
+}
+
 .carousel-cell .uploadcare--widget {
     display: inline-block;
     vertical-align: baseline;
@@ -170,7 +176,7 @@ ol.flickity-page-dots {
 
 
 .card:after {
-    content: "Click to add image";
+    content: "blank slide";
     position: relative;
     z-index: 0;
     font-size: 8px;
