@@ -36,6 +36,11 @@ body {
     border: 0.9px solid rgba(0,0,0,.2) !important;
 }
 
+.carousel-cell .uploadcare--widget__button:focus{
+	outline: unset !important;
+    outline-offset: 1px !important;
+}
+
 .carousel-cell .uploadcare--widget {
     display: inline-block;
     vertical-align: baseline;
