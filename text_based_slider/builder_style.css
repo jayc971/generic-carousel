@@ -31,7 +31,7 @@ body {
 }
 
 .carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_open, .carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_cancel, .carousel-cell button.uploadcare--widget__button.uploadcare--widget__button_type_remove, .carousel-cell .uploadcare--widget__text, .carousel-cell .uploadcare--progress.uploadcare--progress_type_canvas.uploadcare--widget__progress, .carousel-cell .uploadcare--progress__canvas{
-    background-color: white !important;
+    background-color: rgba(255,255,255,.7) !important;
     color: black !important;
     border: 0.9px solid rgba(0,0,0,.2) !important;
 }
