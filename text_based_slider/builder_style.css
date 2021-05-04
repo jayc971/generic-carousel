@@ -37,8 +37,13 @@ body {
 }
 
 .carousel-cell .uploadcare--widget__button:focus{
+	background-color: rgba(255,255,255,.7) !important;
 	outline: unset !important;
     outline-offset: 1px !important;
+}
+
+.carousel-cell .uploadcare--widget__button.uploadcare--widget__button_type_open:hover{
+	background-color: rgba(255,255,255,1) !important;
 }
 
 .carousel-cell .uploadcare--widget {
@@ -181,7 +186,7 @@ ol.flickity-page-dots {
 
 
 .card:after {
-    content: "blank slide";
+    content: "";
     position: relative;
     z-index: 0;
     font-size: 8px;
